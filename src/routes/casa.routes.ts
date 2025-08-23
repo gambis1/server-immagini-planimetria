@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getCasa, createCasa } from "../services/casa.service.ts";
+import { getCasa, createCasa } from "../services/casa.service.js";
 
 const router = Router();
 

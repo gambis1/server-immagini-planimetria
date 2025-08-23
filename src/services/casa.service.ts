@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Casa, { ICasa } from "../models/casa.model.ts";
+import Casa, { ICasa } from "../models/casa.model.js";
 
 export const getCasa = async (req: Request, res: Response): Promise<void> => {
   try {

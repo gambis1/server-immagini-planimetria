@@ -10,7 +10,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 import mongoose from "mongoose";
-import casaRoutes from "./routes/casa.routes.ts";
+import casaRoutes from "./routes/casa.routes.js";
 
 const dbUrl = process.env.MONGO_URL || "";
 mongoose
